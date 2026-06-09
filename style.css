@@ -12,7 +12,7 @@ html {
 }
 
 
-h1 {font-size: 1.5em; white-space: nowrap;}
+h1 {font-size: 1.5em; /* white-space: nowrap */;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.4em;}
 p {font-size: 1.4em;}
