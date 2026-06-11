@@ -8,8 +8,8 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 90px;
-}
+/*   scroll-padding-top: 90px;
+ */}
 
 
 h1 {font-size: 1.5em; /* white-space: nowrap */;}
@@ -26,9 +26,7 @@ h2, h3 {
 body {
   margin: 0;
   overflow-x: hidden;
-  padding-top: 110px;
   line-height: 1.6;
-  margin: 0;
   font-family: 'Inter', sans-serif;
   background: #0b0b0f;
   color: #fff;
@@ -74,7 +72,7 @@ img {
   align-items: center;
   gap: 20px;
   padding-top: 0;
-  padding: 0.5rem 0;
+  padding: 0.5rem 1rem;
   background: rgba(11,11,15,0.92);
   backdrop-filter: blur(8px);
 }
@@ -86,6 +84,12 @@ header {
   backdrop-filter: blur(8px);
   box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
+
+.site-header {
+  padding: 5rem 1rem;
+  background: rgba(11,11,15,0.92);
+}
+
 
 #container-header {
   display: flex;
@@ -152,7 +156,7 @@ nav a:hover {
 }
 
 #hero h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   letter-spacing: 2px;
   margin: 0;
 }
