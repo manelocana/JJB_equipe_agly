@@ -8,11 +8,10 @@
 
 html {
   scroll-behavior: smooth;
-/*   scroll-padding-top: 90px;
- */}
+}
 
 
-h1 {font-size: 1.5em; /* white-space: nowrap */;}
+h1 {font-size: 1.5em;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.4em;}
 p {font-size: 1.4em; margin-top: 20px; margin-bottom: 20px;}
@@ -97,7 +96,6 @@ header {
   align-items: center;
   text-align: center;
   gap: 1rem;
-  /* padding: 110px 1rem 2rem; */
   overflow: visible;
 }
 
@@ -157,13 +155,13 @@ nav a:hover {
 
 #hero h2 {
   font-size: 2.5rem;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin: 0;
 }
 
 #hero h3 {
   font-size: 2rem;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
@@ -183,6 +181,7 @@ nav a:hover {
   padding: 12px 28px;
   background: #e11d48;
   color: white;
+  opacity: 0.8;
   text-decoration: none;
   border-radius: 999px;
   font-weight: 500;
@@ -209,8 +208,8 @@ nav a:hover {
 
 .professeur img {
   margin-bottom: 3rem;
-  /* height: 250px;
-  width: 100%; */
+  height: 250px;
+  width: auto;
 }
 
 
@@ -242,7 +241,6 @@ nav a:hover {
   text-align: center;
   padding: 80px 20px;
   background: #0f0f14;
-  opacity: 0.9;
 }
 
 /* CTA */
@@ -252,10 +250,14 @@ nav a:hover {
 }
 
 .image-map {
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
+  transition: 0.3s;
 }
 
+.image-map:hover {
+  transform: scale(1.05);
+}
 
 .social-links a {
     font-size: 30px;
@@ -323,7 +325,7 @@ nav a:hover {
   }
 
   .container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -375,7 +377,7 @@ nav a:hover {
 
 
   .image-map {
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
   }
 
