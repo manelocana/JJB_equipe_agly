@@ -208,8 +208,8 @@ nav a:hover {
 
 .professeur img {
   margin-bottom: 3rem;
-  height: 250px;
-  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 
