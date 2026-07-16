@@ -59,6 +59,18 @@ body {
   font-family: 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.card,
+.site-header,
+#footer,
+#schedule {
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
 
 
@@ -151,7 +163,7 @@ header {
 .header-logo img {
   height: 60px;
   width: auto;
-  display: flex;
+  display: block;
   align-items: center;
   transition: none;
   box-shadow: none;
@@ -222,14 +234,6 @@ nav a:hover {
 #hero h3 {
   font-size: 2rem;
   opacity: 0.9;
-}
-
-
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
 }
 
 
@@ -334,12 +338,11 @@ nav a:hover {
 .image-map {
   max-width: 300px;
   height: auto;
-  transition: 0.3s;
   margin-bottom: 2rem;
 }
 
 .image-map:hover {
-  transform: scale(1.05);
+  transform: translateY(-8px) scale(1.02);
 }
 
 .social-links a {
